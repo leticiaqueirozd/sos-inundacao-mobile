@@ -1,11 +1,11 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import SplashScreen from '../Screens/SplashScreen';
-import LoginScreen from '../screens/LoginScreen';
-import DashboardScreen from '../screens/DashboardScreen';
-import HistoryScreen from '../screens/HistoryScreen';
-import AlertsScreen from '../screens/AlertsScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import LoginScreen from '../Screens/LoginScreen';
+import DashboardScreen from '../Screens/DashboardScreen';
+import HistoryScreen from '../Screens/HistoryScreen';
+import AlertsScreen from '../Screens/AlertsScreen';
+import SettingsScreen from '../Screens/SettingsScreen';
 
 const AppNavigator = createStackNavigator(
   {
